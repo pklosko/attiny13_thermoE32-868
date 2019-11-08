@@ -21,6 +21,7 @@ Code for ATTiny13 coming soon...
 ---
 
 **Router side:**
+
    HW : Turris Omnia, Python installed
    SW :  router/uart2IoTd.py Daemon
    
@@ -32,7 +33,6 @@ Code for ATTiny13 coming soon...
 
 **(c) 2019 Petr KLOSKO**
  
- UART code and CLI based on 
-      ATtiny13/021 -  Simple text CLI (Command Line Interface) via UART.
-      by Łukasz Podkalicki <lpodkalicki@gmail.com> @lpodkalicki
+ UART code by 
+      Łukasz Podkalicki <lpodkalicki@gmail.com> @lpodkalicki
       [https://blog.podkalicki.com/100-projects-on-attiny13/]
