@@ -1,0 +1,15 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006-2011 OpenWrt.org
+# Copyright (C) 2013-2016 CZ.NIC
+# Copyright (C) 2019      Petr KLOSKO [www.klosko.net]
+
+START=99
+
+USE_PROCD=1
+
+start_service() {
+	procd_open_instance
+	procd_set_param command /etc/scripts/uart2IoTd.py
+	procd_set_param respawn
+	procd_close_instance
+}
