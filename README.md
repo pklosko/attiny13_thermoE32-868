@@ -2,11 +2,7 @@
 
 **ATTiny13 - DS18b20 thermometer**
 
-- Send data via E32-828 device [LoRaWan], processed by Turris Omnia router & REST API
-
----
-
-Code for ATTiny13 coming soon...
+- Send data via E32-828 device [LoRaWan], processed by Turris Omnia router (Python daemon) & REST API
 
 
 ---
