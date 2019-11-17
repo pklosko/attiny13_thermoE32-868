@@ -4,6 +4,11 @@
 
 - Send data via E32-828 device [LoRaWan], processed by Turris Omnia router (Python daemon) & REST API
 
+   ![Alt text](attiny13_thermoE32-868.jpg?raw=true "ATTiny13 - DS18b20 thermometer")
+   
+---
+
+Schematics Remark: Do not use BSS 138. Use 2n7002 or BC 817/847 instead.
 
 ---
 
